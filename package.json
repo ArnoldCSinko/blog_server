@@ -1,0 +1,34 @@
+{
+	"name": "blog_server",
+	"version": "1.0.0",
+	"description": "Server api for blog",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ArnoldCSinko/blog_server.git"
+	},
+	"keywords": [
+		"blog",
+		"nodejs",
+		"api",
+		"rest"
+	],
+	"author": "Arnold C. Sinko",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ArnoldCSinko/blog_server/issues"
+	},
+	"homepage": "https://github.com/ArnoldCSinko/blog_server#readme",
+	"dependencies": {
+		"bcrypt-nodejs": "0.0.3",
+		"body-parser": "^1.18.3",
+		"cors": "^2.8.5",
+		"express": "^4.16.4",
+		"knex": "^0.16.3",
+		"pg": "^7.8.1"
+	}
+}
